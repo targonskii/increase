@@ -1,0 +1,158 @@
+:root {
+    --grey: #777;
+    --white: #fff;
+    --dark: #696969;
+    --ligth-grey: #dcdcdc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 959px;
+    margin: 20px auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--white);
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 108px;
+}
+
+header ul {
+    padding: 20px;
+    text-align: right;
+}
+
+header div {
+    height: 100%;
+    background: var(--grey);
+}
+
+header div:first-child {
+    width: 122px;
+}
+
+header div:nth-child(2) {
+    width: 279px;
+    margin: 0 20px;
+}
+
+header div:last-child {
+    width: 100%;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.main__separator-line {
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+    background: var(--dark);
+}
+
+.main__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    height: 335px;
+    padding: 15px;
+    margin-right: 20px;
+    background: var(--grey);
+}
+
+.main__center {
+    width: 100%;
+}
+
+.main__center-first {
+    width: 100%;
+    height: 210px;
+    padding: 20px;
+    background: var(--ligth-grey);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main__center-middle {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main__center-middle div {
+    width: 132px;
+    height: 160px;
+    background: var(--ligth-grey);
+}
+
+.main__center-last {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.main__center-last div {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    background: var(--ligth-grey);
+    color: var(--grey);
+}
+
+footer {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer > div {
+    height: 100%;
+    width: 100%;
+    background: var(--grey);
+}
+
+footer div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: none;
+}
+
+footer div:last-child > div {
+    width: 100%;
+    height: 86px;
+    background: var(--grey);
+}
+
+.footer__first ul {
+    column-count: 2;
+    padding: 20px;
+}
+
+.footer__middle ul {
+    padding: 20px;
+}
