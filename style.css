@@ -6,9 +6,9 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -86,9 +86,9 @@ aside li:first-child {
     width: 100%;
     min-height: 210px;
     padding: 20px;
+    margin-bottom: 20px;
     background: var(--ligth-grey);
     color: var(--dark);
-    margin-bottom: 20px;
 }
 
 .content__center-first ul {
@@ -136,8 +136,8 @@ footer > div {
 }
 
 .footer__first ul {
-    column-count: 2;
     padding: 20px;
+    column-count: 2;
 }
 
 .footer__middle ul {
@@ -175,9 +175,9 @@ footer > div {
     }
 
     .header__more-information {
-        order: 3;
         width: 100%;
         margin: 20px 0 0;
+        order: 3;
     }
 
     .header__contacts {
